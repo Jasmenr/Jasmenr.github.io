@@ -1,0 +1,70 @@
+a{text-decoration:none;}
+
+
+  a[href$=".html"]{
+    display: none;
+  }
+  a[href^="http://"]{
+    display: inline;
+  }
+  a[href^="http://"]:after { content:  "( "attr(href)")" ; }
+  }
+#container {
+  margin: 1.5pt;
+  width: 80%
+  border: 2pt solid #ccc;
+}
+.navbar {
+  display: none;
+}
+
+li {
+ font-family: Roboto;
+}
+
+
+
+
+
+
+h1{
+  color: #FF3333;
+  padding: 0px;
+  border-radius: 12pt;
+  text-decoration: none;
+  font-size: 45pt;
+  text-align: center;
+  font-family: Lobster;
+}
+
+
+p {
+  font-family: Roboto;
+
+}
+
+h2{
+  color: #FF3333;
+  font-size: 22pt;
+  margin: auto;
+  text-align:left;
+  padding-right: 18pt;
+  border-radius:12pt;
+  box-shadow: 12pt;
+  font-family: Lobster;
+}
+ h3 {
+   font-family: Roboto;
+   font-size: 80%;
+   text-align: center;
+   display: inline-block;
+ }
+  h4 {
+   font-family: Roboto;
+   text-align: center;
+
+ }
+
+ #underline li{
+   text-decoration: underline;
+ }
